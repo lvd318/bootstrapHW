@@ -1,0 +1,296 @@
+header{
+	background-color: rgb(232, 239, 240); 
+	padding-bottom: 50px;
+}
+main{
+	padding-top: 50px;
+}
+.container{
+	width: 960px;
+}
+
+#header_logo{
+	position: relative;
+	font-family: 'Yellowtail';
+	font-size: 80px;
+	padding:20px 0 0 3px;
+}
+
+#header_menu{
+	position: absolute;
+	font-family: Helvetica ;
+	font-weight: bolder;
+	font-size: small;
+	top: 110px;
+}
+#header_menu ul {
+	padding-left: 0px;
+}
+
+#header_menu ul li {
+	list-style-type: none;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+#header_menu  ul li a  {
+
+	text-decoration: none;
+	color: #000;
+}
+
+#header_menu  ul li a img {
+	position: relative;
+	top: -10px;
+}
+
+#header_menu > ul li a:hover {
+	color:red;
+}
+
+#header_right{
+	position: relative;
+	margin-top: 44px;
+}
+
+#header_right img{
+	width: 492px;
+}
+
+.content{
+	border-color: whitesmoke;
+	border-style: dashed;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 30px;
+}
+
+.text_in_header_right{
+	position: absolute;
+	padding: 10px;
+	width: 100%;
+	top: 14px;
+}
+
+.input_button{
+	position: absolute;
+	margin: 10px;
+	top: 50px;
+}
+
+.input_button #mailbox{
+	padding-right: 120px;
+}
+
+.pic1{
+	height: 300px;
+	width: 100%;
+	border-style: groove;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pic2{
+	margin-left:50px;
+	margin-bottom: 30px;
+}
+.row .col-8{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+p.col-8 {
+	padding-right: 50px;
+}
+
+.col-4{
+	position: relative;
+}
+
+.deal_ticker{
+	position: absolute;
+	top: 20px;
+	left: 110px;
+}
+
+.this-deal{
+	color: lightgrey;
+	margin-bottom: 100px;
+}
+
+.day, .discount, .number43, .number47, .number20, .dealvalue, .yousave {
+	position: absolute;
+}
+
+.day{
+	top: 50px;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.discount{
+	color: lightgrey;
+	top: 100px;
+	left: 50px;
+	font-weight: bold;
+}
+
+.number43{
+	top: 100px;
+	left: 30px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.dealvalue{
+	color: lightgrey;
+	top: 200px;
+	left: 0px;
+	font-weight: bold;
+}
+.yousave{
+	width: 200px;
+	color: lightgrey;
+	top: 200px;
+	left: 110px;
+	font-weight: bold;
+}
+ .number47{
+	top: 220px;
+	left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.number20{
+	top: 220px;
+	left: 125px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn_buy{
+	position:relative;
+	left: 80px;
+	padding: 10px 10px;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: lightgreen;
+}
+
+.logos{
+	display: flex;
+	justify-content: space-around;
+}
+
+.deadlers{
+	color: #828282;
+	font-family: 'Yellowtail';
+	font-size: 40px;
+}
+.themeskingdom{
+	color: #828282;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 20px 10px 10px 10px;
+}
+
+.dovesmedic{
+	color: #828282;
+	font-family: 'Pinyon Script';
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.sm{
+	color: #828282;
+	font-family: 'Pinyon Script';
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.client_logo{
+	border-color: whitesmoke;
+	border-style: dashed;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+.products{
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+
+.pic3{
+	width: 100%;
+}
+.detail_product{
+	margin-top: 30px;
+	border-style: groove;
+}
+.detail{
+	display: flex;
+	flex-direction: column;
+}
+.infos{
+	color: #828282;
+	font-size: 20px;
+	font-weight: 500;
+	margin:0px;
+	display: flex;
+	justify-content: space-around;
+}
+.infos p{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.prices{
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	font-size: 20px;
+}
+.seedeal{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button_seedeal{
+	border-radius: 8px;
+	background-color: lightgreen;
+}
+
+.about{
+	padding-top: 30px;
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+.about .col{
+	line-height: 2;
+}
+
+
+.button_1dayago{
+	border: none;
+	height: 60%;
+}
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgb(232, 239, 240);
+	text-align: center;
+}
